@@ -1,12 +1,12 @@
 # CIN and CLA Pathways
 
-Tracing the statutory children's social care pathway in England — **referral → assessment → Child in Need (CIN) → Child Protection Plan (CPP) → Children Looked After (CLA)** — using the Department for Education's published child-level census data.
+Tracing the statutory children's social care pathway in England - **referral → assessment → Child in Need (CIN) → Child Protection Plan (CPP) → Children Looked After (CLA)** - using the Department for Education's published child-level census data.
 
 A companion piece to an earlier SEN (Special Educational Needs) pathways notebook, using the same approach: pull DfE's own local-authority-level statistics, join them along a pathway, and see what the funnel actually looks like across years and local authorities.
 
 ## Why this project
 
-This started as a follow-on from SEN pathways work, but chose deliberately to work in the CIN/CLA space because it overlaps directly with my wife's career in child protection social work — CIN, CLA, and category-of-need terminology are her day-to-day working vocabulary. The goal is a project that's both technically defensible (real public data, real joins, real data-quality problems to solve) and substantively meaningful to someone who actually works in the field.
+Another "conversation with the wife" inpired project, this started as a follow-on from SEN pathways work, but chose deliberately to work in the CIN/CLA space because it overlaps directly with my wife's career in child protection social work - CIN, CLA, and category-of-need terminology are her day-to-day working vocabulary. The goal is a project that's both technically defensible (real public data, real joins, real data-quality problems to solve) and substantively meaningful to someone who actually works in the field.
 
 ## Data sources
 
@@ -33,7 +33,7 @@ Any local-authority-level time trend has to handle these splits explicitly rathe
 
 ## Scope note: Emergency Protection Orders
 
-This notebook stops at CLA. Emergency Protection Orders are made by the family court and recorded by Cafcass, not the Department for Education — they sit outside the Children in Need census and the SSDA903 collection entirely. Rather than forcing a join to a dataset that doesn't align cleanly, the final section of the notebook documents where the publicly available statutory pathway data actually stops.
+This notebook stops at CLA. Emergency Protection Orders are made by the family court and recorded by Cafcass, not the Department for Education - they sit outside the Children in Need census and the SSDA903 collection entirely. Rather than forcing a join to a dataset that doesn't align cleanly, the final section of the notebook documents where the publicly available statutory pathway data actually stops.
 
 ## Setup
 
@@ -44,4 +44,4 @@ jupyter notebook cin_cla_pathways.ipynb
 
 ## Status
 
-Work in progress — starting with data loading and inspection, building out the pathway joins next.
+Work in progress - starting with data loading and inspection, building out the pathway joins next.
